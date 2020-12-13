@@ -1,0 +1,24 @@
+{
+  "name": "@marvel/api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "backpack",
+    "build": "backpack build",
+    "start": "node ./build/main.js"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.2.3",
+    "@graphql-tools/merge": "^6.2.3",
+    "@graphql-tools/utils": "^6.2.3",
+    "apollo-server": "^2.18.1",
+    "backpack-core": "^0.8.4",
+    "convict": "^6.0.0",
+    "graphql": "^15.3.0",
+    "graphql-modules": "^1.0.0-alpha.2",
+    "superagent": "^6.1.0",
+    "superagent-logger": "^1.1.0",
+    "superagent-prefix": "^0.0.2"
+  }
+}
